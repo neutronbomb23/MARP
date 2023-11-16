@@ -1,0 +1,44 @@
+﻿  main.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xmemory(719,82): error C2512: 'Par::Par': no hay disponible un constructor predeterminado adecuado
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xmemory(719,82): message : al hacer coincidir la lista de argumentos '()'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xmemory(1802,35): message : Vea la referencia a la creación de una instancia de la función plantilla "void std::_Default_allocator_traits<_Alloc>::construct<_Ty,>(_Alloc &,_Objty *const )" que se está compilando
+          with
+          [
+              _Alloc=std::allocator<Par>,
+              _Ty=Par,
+              _Objty=Par
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xmemory(2042,17): message : Vea la referencia a la creación de una instancia de la función plantilla "void std::_Uninitialized_backout_al<std::allocator<T>>::_Emplace_back<>(void)" que se está compilando
+          with
+          [
+              T=Par
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\vector(2069,36): message : Vea la referencia a la creación de una instancia de la función plantilla "Par *std::_Uninitialized_value_construct_n<std::allocator<T>>(Par *,unsigned __int64,_Alloc &)" que se está compilando
+          with
+          [
+              T=Par,
+              _Alloc=std::allocator<Par>
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\vector(620,9): message : Vea la referencia a la creación de una instancia de la función plantilla "void std::vector<T,std::allocator<T>>::_Construct_n<>(const unsigned __int64)" que se está compilando
+          with
+          [
+              T=Par
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\vector(618,5): message : al compilar la función del miembro clase plantilla "std::vector<T,std::allocator<T>>::vector(const unsigned __int64,const _Alloc &)"
+          with
+          [
+              T=Par,
+              _Alloc=std::allocator<Par>
+          ]
+C:\Users\dorje\Desktop\MARP\Tridente\indexpq.h(27,71): message : vea la primera referencia a “std::vector<T,std::allocator<T>>::vector” en “IndexPQ<Par,std::greater<Par>>::IndexPQ”
+          with
+          [
+              T=Par
+          ]
+C:\Users\dorje\Desktop\MARP\Tridente\main.cpp(22,41): message : vea la primera referencia a “IndexPQ<Par,std::greater<Par>>::IndexPQ” en “main”
+C:\Users\dorje\Desktop\MARP\Tridente\indexpq.h(11,20): message : Vea la referencia a la creación de una instancia de clase plantilla "std::vector<T,std::allocator<T>>" que se está compilando
+          with
+          [
+              T=Par
+          ]
+C:\Users\dorje\Desktop\MARP\Tridente\main.cpp(22,37): message : Vea la referencia a la creación de una instancia de clase plantilla "IndexPQ<Par,std::greater<Par>>" que se está compilando

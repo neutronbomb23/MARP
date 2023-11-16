@@ -1,0 +1,3 @@
+﻿  main.cpp
+C:\Users\dorje\Desktop\MARP\MarpConjuntame\main.cpp(17,21): warning C4244: 'inicializando': conversión de 'double' a 'int'; posible pérdida de datos
+  MarpConjuntame.vcxproj -> C:\Users\dorje\Desktop\MARP\MarpConjuntame\x64\Debug\MarpConjuntame.exe
